@@ -7,11 +7,6 @@ public class Animal {
     Point cords;
     char s;
 
-
-    public char getS() {
-        return s;
-    }
-
     public Animal(char s) {
 
         this.s = s;
@@ -27,6 +22,17 @@ public class Animal {
 
     public void setS(char s) {
         this.s = s;
+    }
+
+    public char getS() {
+        return s;
+    }
+
+    public
+
+
+    public void Display(){
+        System.out.println("Animal"+s+"SYNTETAGMENES"+cords);
     }
 }
 

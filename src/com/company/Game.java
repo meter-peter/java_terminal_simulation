@@ -13,19 +13,18 @@ public class Game {
     public Game() {
         table = new Table();
         table.SpawnMonsters();
-        update();
+
+        table.updateframe();
 
 
     }
 
-    public void update(){
-        for (int i=0;i<20;i++){
-            for (int j=0;j<20;j++){
-                System.out.println(table.getTable()[i][j]);
-            }
-
-        }
+    public void clearbodies(){
+        for(table.table.)
 
     }
+
+
+
 
 }

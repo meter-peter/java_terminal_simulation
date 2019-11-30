@@ -22,10 +22,6 @@ public class Block extends Point {
         this.view = view;
     }
 
-    public boolean isHaschar() {
-        return haschar;
-    }
-
     public void setHaschar(boolean haschar) {
         this.haschar = haschar;
     }
@@ -38,6 +34,8 @@ public class Block extends Point {
         this.animal = animal;
         animal.setCords(this.getLocation());
         setView(animal.getS());
+        System.out.println(view);
+
     }
 }
 
